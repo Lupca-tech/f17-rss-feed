@@ -1,0 +1,19 @@
+[
+  {
+    "attributes": {
+      "title": "F17 city has a new release",
+      "description": "The new release...",
+      "importance": false,
+      "author": "xxx",
+      "updatedAt": "10-12"
+    }
+  },
+  {
+    "attributes": {
+      "title": "SRO has a new release",
+      "description": "The new release...",
+      "importance": false,
+      "updatedAt": "10-12"
+    }
+  }
+]

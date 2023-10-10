@@ -16,16 +16,16 @@ class RSSService {
       title: this.title,
       description: this.description,
       language: this.language,
-      ttl: this.ttl
+      ttl: this.ttl,
     });
 
     this.articles.forEach((article) => {
       feed.item({
-        title: article.title,
-        description: article.description,
-        url: article.link,
-        author: article.author,
-        date: article.pubDate
+        title: article.attributes.title,
+        description: article.attributes.description,
+        url: article.attributes.link,
+        author: article.attributes.author,
+        date: article.attributes.updatedAt,
       });
     });
 

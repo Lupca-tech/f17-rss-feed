@@ -13,6 +13,7 @@ class FilterService {
       // Điều kiện lọc ở đây (ví dụ: chỉ lọc các bài viết mới hơn 7 ngày)
       // return true nếu bài viết thỏa mãn điều kiện
       // return false nếu không thỏa mãn
+      return true;
     });
   }
 }
